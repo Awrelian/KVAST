@@ -1,0 +1,47 @@
+:root {
+   --main-color: #fff;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+}
+
+*,
+::after,
+::before {
+   box-sizing: border-box;
+}
+
+.container {
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
+.header {
+   background-image: url(/src/assets/img/wheat-back.jpg.png);
+   height: 750px;
+}
+
+.header__content {}
+
+.header__logo {
+   display: inline-block;
+}
+
+.header__navigation {
+   display: inline-block;
+   border-top: 1px solid var(--main-color);
+}
+
+.header__navigation__list {}
+
+.header__navigation__list__item {
+   display: inline-block;
+}
+
+.header__navigation__list__item__link {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: var(--main-color);
+}
